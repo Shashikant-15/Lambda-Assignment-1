@@ -2,12 +2,13 @@ package com.knoldus.MaximumReturn;
 
 
 import java.util.Scanner;
-
-public class MaximumReturnMainClass{
+// public class initialized as name MaximumNumberReturnAmongTwo
+public class MaximumNumberReturnAmongTwo{
+    // main method called
     public static void main(String[] args) {
 
         // Lambda Expression for Return Maximum  integer values :
-        MaximumReturnInterface result=(n1,n2) -> Math.max(n1,n2);
+        Interface_of_MaximumNumberReturnAmongTwo result=(n1, n2) -> Math.max(n1,n2);
         Scanner sc = new Scanner(System.in);
 
         // User Input for Above function's Implementation
